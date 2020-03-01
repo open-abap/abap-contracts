@@ -9,7 +9,7 @@ INTERFACE zif_abap_serverless_v1 PUBLIC.
 
   TYPES: BEGIN OF ty_http,
            headers TYPE ty_headers,
-           payload TYPE string,
+           body    TYPE string,
          END OF ty_http.
 
   METHODS
