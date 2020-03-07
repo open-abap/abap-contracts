@@ -16,7 +16,8 @@ INTERFACE zif_abap_serverless_v1 PUBLIC.
     run
       IMPORTING
         iv_method      TYPE string
-        iv_request_uri TYPE string
+        iv_path        TYPE string
+        iv_query       TYPE string
         is_request     TYPE ty_http
       RETURNING
         rs_response    TYPE ty_http
