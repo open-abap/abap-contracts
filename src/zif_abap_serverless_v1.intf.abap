@@ -5,7 +5,7 @@ INTERFACE zif_abap_serverless_v1 PUBLIC.
            value TYPE string,
          END OF ty_header.
 
-  TYPE ty_headers TYPE STANDARD TABLE OF ty_header WITH DEFAULT KEY.
+  TYPES ty_headers TYPE STANDARD TABLE OF ty_header WITH DEFAULT KEY.
 
   TYPES: BEGIN OF ty_http,
            headers TYPE ty_headers,
